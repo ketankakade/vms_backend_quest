@@ -1,10 +1,11 @@
-package com.quest.vms.dao;
+package com.quest.vms.db.dao.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.quest.vms.entity.User;
-import com.quest.vms.repository.UserRepository;
+import com.quest.vms.db.dao.IUserDao;
+import com.quest.vms.db.entity.User;
+import com.quest.vms.db.repository.UserRepository;
 
 @Service
 public class UserDao implements IUserDao {

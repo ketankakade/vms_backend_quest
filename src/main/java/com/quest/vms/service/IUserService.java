@@ -1,9 +1,8 @@
 package com.quest.vms.service;
 
-import com.quest.vms.customexception.InternalServerError;
-
-import com.quest.vms.customexception.RecordNotFoundException;
-import com.quest.vms.dto.UserDto;
+import com.quest.vms.dto.common.UserDto;
+import com.quest.vms.exception.InternalServerError;
+import com.quest.vms.exception.RecordNotFoundException;
 
 public interface IUserService {
 

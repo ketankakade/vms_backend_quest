@@ -1,4 +1,4 @@
-package com.quest.vms.dto;
+package com.quest.vms.dto.common;
 
 import java.time.LocalDateTime;
 

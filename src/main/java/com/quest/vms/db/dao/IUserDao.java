@@ -1,6 +1,6 @@
-package com.quest.vms.dao;
+package com.quest.vms.db.dao;
 
-import com.quest.vms.entity.User;
+import com.quest.vms.db.entity.User;
 
 public interface IUserDao {
 

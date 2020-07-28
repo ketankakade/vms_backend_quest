@@ -1,4 +1,4 @@
-package com.quest.vms.entity;
+package com.quest.vms.db.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
